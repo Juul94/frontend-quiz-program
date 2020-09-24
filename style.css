@@ -1,0 +1,65 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: Mercedes;
+    src: url(font/mercedes.woff);
+}
+
+body {
+    background-image:url(images/mercedes-1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    padding:25px;
+    margin:100px auto;
+    position: relative;
+    border-top:1px solid rgba(255,255,255,0.4);
+    border-bottom:1px solid rgba(255,255,255,0.4);
+    background-color:rgba(0,0,0,0.4);
+}
+
+h1 {
+    font-size:30px;
+    text-align: center;
+    color:white;
+    font-family: Mercedes;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+}
+
+#btn_startQuiz {
+    padding: 8px 25px 7px 25px;
+    border-radius: 1px;
+    font-size:16px;
+    display:block;
+    margin:25px auto 5px auto;
+    background-color:#00adef;
+    color:white;
+    border:none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#btn_startQuiz:hover {
+    background-color:#0088c6;
+    cursor: pointer;
+}
+
+#btn_startQuiz:focus {
+    outline:none;
+}
+
+canvas {
+    display: block;
+    cursor: crosshair;
+    position: absolute;
+    top:0;
+    left:0;
+}
